@@ -34,8 +34,9 @@ The printer is statically addressed at `192.168.50.10`. The external payment ser
 ## External payment-server traffic
 The documented path is endpoint → access switch → L3-SW1 → EDGE-R1 → ISP-R1 → payment server. The documentation records PAT on EDGE-R1 as functioning in this simulation.
 
-## Topology diagram status
-The recovered technical document explicitly states that the original topology image was not included in that document. The diagram folder is therefore awaiting the original image; no replacement diagram has been fabricated.
+## Network Topology
+
+![Retail Store Network Topology](./diagrams/retail-network-topology.png)
 
 ## Project files
 - `documentation/retail-store-network-documentation.docx` — recovered technical documentation.
